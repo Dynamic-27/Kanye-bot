@@ -1,0 +1,57 @@
+const Discord = require('discord.js');
+ const client = new Discord.Client();
+
+client.on('ready', () => {
+ console.log(`Logged in as Kanye`);
+ });
+
+client.on('message', msg => {
+ if (msg.content === 'Kanye') {
+ msg.channel.send('I like boys');
+ }
+ });
+
+client.on('message', msg => {
+ if (msg.content === 'Send amogus') {
+ msg.channel.send('https://cdn.discordapp.com/attachments/645265290585702411/861520463405514752/Screenshot_20210702-231507999__01.jpg');
+ }
+ });
+
+client.on('message', msg => {
+ if (msg.content === 'Kanye') {
+ msg.channel.send();
+ function myFunc(arg) {
+  msg.channel.send(`Obama hamburger`);
+}
+
+
+setTimeout(myFunc, 10000, 'funky');
+}
+ });
+
+client.on('message', msg => {
+ if (msg.content === 'Kanye') {
+ msg.channel.send();
+ function myFunc(arg) {
+  msg.channel.send(`https://cdn.discordapp.com/attachments/645265290585702411/861528222285824000/84e.jpg`);
+}
+
+
+setTimeout(myFunc, 10000, 'funky');
+}
+ });
+
+client.on('message', msg => {
+ if (msg.content === 'Kanye lyrics') {
+ msg.channel.send('Fortnite balls, I’m gayI like boys I kidnap autistic kids Lil Mosey Is watching, T. Rex Im EDP, big Kanye West Me, Lemon Pepper Shrimp Bro, aint no way, casket, poop Im EDPs cupcake, Kim cheated Laugh my ass off, big cheese Kim left me, 19$ Fortnite card Im racist, a vangelis Hi Kanye, laugh my ass off You were legend garb, I love feet Age is a number, kiddo, balls, balls I rap ocean water, big nigga balls A.E.I.O.U, stars arent real I like underaged girls, E. Side Who been countin J. Cole out? Ocean water shook my balls Yeah, Yeezus, tree bark Mom’s spaghetti, EDP 445');
+ }
+ });
+
+client.on('message', msg => {
+ if (msg.content === 'Kanye help') {
+ msg.channel.send('commands   -Kanye-   -Kanye help-   -Kanye lyrics-   -Send amogus-');
+ }
+ });
+
+
+client.login(process.env.TOKEN);
